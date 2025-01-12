@@ -1,0 +1,115 @@
+{"level":"error","time":"2025-01-12T10:08:00.482Z","caller":"globalconfigvalidator/setup.go:54","msg":"2025-01-12T10:08:00Z    error    \u001b[91mERR::NO::USER\u001b[0m     Unable to find LT username.    Unable to parse LT username. Use --user cli flag or LT_USERNAME environment variable"}
+{"level":"error","time":"2025-01-12T10:08:00.482Z","caller":"cmd/bin.go:103","msg":"2025-01-12T10:08:00Z    error    \u001b[91mERR::NO::USER\u001b[0m     Unable to find LT username."}
+{"level":"error","time":"2025-01-12T10:10:00.927Z","caller":"globalconfigvalidator/setup.go:54","msg":"2025-01-12T10:10:00Z    error    \u001b[91mERR::NO::USER\u001b[0m     Unable to find LT username.    Unable to parse LT username. Use --user cli flag or LT_USERNAME environment variable"}
+{"level":"error","time":"2025-01-12T10:10:00.927Z","caller":"cmd/bin.go:103","msg":"2025-01-12T10:10:00Z    error    \u001b[91mERR::NO::USER\u001b[0m     Unable to find LT username."}
+{"level":"error","time":"2025-01-12T10:11:18.819Z","caller":"globalconfigvalidator/setup.go:54","msg":"2025-01-12T10:11:18Z    error    \u001b[91mERR::NO::USER\u001b[0m     Unable to find LT username.    Unable to parse LT username. Use --user cli flag or LT_USERNAME environment variable"}
+{"level":"error","time":"2025-01-12T10:11:18.819Z","caller":"cmd/bin.go:103","msg":"2025-01-12T10:11:18Z    error    \u001b[91mERR::NO::USER\u001b[0m     Unable to find LT username."}
+{"level":"error","time":"2025-01-12T10:12:20.348Z","caller":"globalconfigvalidator/setup.go:54","msg":"2025-01-12T10:12:20Z    error    \u001b[91mERR::NO::USER\u001b[0m     Unable to find LT username.    Unable to parse LT username. Use --user cli flag or LT_USERNAME environment variable"}
+{"level":"error","time":"2025-01-12T10:12:20.348Z","caller":"cmd/bin.go:103","msg":"2025-01-12T10:12:20Z    error    \u001b[91mERR::NO::USER\u001b[0m     Unable to find LT username."}
+{"level":"debug","time":"2025-01-12T10:13:17.058Z","caller":"cmd/bin.go:121","msg":"cli os: linux, cli arch: amd64"}
+{"level":"debug","time":"2025-01-12T10:13:17.399Z","caller":"cmd/bin.go:130","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.249} "}
+{"level":"debug","time":"2025-01-12T10:13:18.503Z","caller":"core/lifecycle.go:104","msg":"Setting environment"}
+{"level":"debug","time":"2025-01-12T10:13:18.504Z","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2025-01-12T10:13:18.504Z","caller":"yamlconfigmanager/setup.go:657","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml/win/junit_hyperexecute_autosplit_sample.yaml"}
+{"level":"debug","time":"2025-01-12T10:13:18.504Z","caller":"yamlconfigmanager/setup.go:110","msg":"using hyperexecute config from : yaml/win/junit_hyperexecute_autosplit_sample.yaml"}
+{"level":"debug","time":"2025-01-12T10:13:18.830Z","caller":"yamlconfigmanager/setup.go:1942","msg":"Autodetecting test type in files of path : /workspace/LambdaTest_Playwright"}
+{"level":"debug","time":"2025-01-12T10:13:18.831Z","caller":"yamlconfigmanager/setup.go:1984","msg":"File in which test type is detected - /workspace/LambdaTest_Playwright/package.json"}
+{"level":"debug","time":"2025-01-12T10:13:18.831Z","caller":"yamlconfigmanager/setup.go:1985","msg":"Pre command in which test type is detected - npm install playwright@1.23.0 --save-exact"}
+{"level":"debug","time":"2025-01-12T10:13:18.831Z","caller":"yamlconfigmanager/setup.go:479","msg":"Automatic test type detected - playwright"}
+{"level":"debug","time":"2025-01-12T10:13:18.831Z","caller":"yamlconfigmanager/setup.go:503","msg":"Tunnel: false"}
+{"level":"info","time":"2025-01-12T10:13:18.831Z","caller":"models/HypertestYamlConfig.go:737","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2025-01-12T10:13:18.831Z","caller":"models/HypertestYamlConfig.go:538","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2025-01-12T10:13:18.831Z","caller":"models/HypertestYamlConfig.go:598","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2025-01-12T10:13:18.831Z","caller":"models/HypertestYamlConfig.go:606","msg":"Concurrency:    \u001b[36m3\u001b[0m"}
+{"level":"info","time":"2025-01-12T10:13:18.831Z","caller":"models/HypertestYamlConfig.go:670","msg":"Report:    \u001b[36menabled\u001b[0m"}
+{"level":"info","time":"2025-01-12T10:13:18.831Z","caller":"models/HypertestYamlConfig.go:684","msg":"Artefacts:"}
+{"level":"info","time":"2025-01-12T10:13:18.831Z","caller":"models/HypertestYamlConfig.go:687","msg":"    Surefire-Report:    \u001b[36mtarget/surefire-reports/**\u001b[0m"}
+{"level":"info","time":"2025-01-12T10:13:18.831Z","caller":"models/HypertestYamlConfig.go:702","msg":"Cache Directories:"}
+{"level":"info","time":"2025-01-12T10:13:18.831Z","caller":"models/HypertestYamlConfig.go:704","msg":"    \u001b[36m.m2\u001b[0m"}
+{"level":"info","time":"2025-01-12T10:13:18.831Z","caller":"models/HypertestYamlConfig.go:750","msg":""}
+{"level":"debug","time":"2025-01-12T10:13:18.831Z","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2025-01-12T10:13:18.831Z","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2025-01-12T10:13:19.190Z","caller":"core/lifecycle.go:402","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 16.93 % of your limit. Free trial mins left - 249.22\u001b[0m\u001b[22m\u001b[0m"}
+{"level":"debug","time":"2025-01-12T10:13:19.190Z","caller":"core/lifecycle.go:472","msg":"Job ID: 6ebfe0ba-26bf-49c6-8f20-d03a5035b8ca"}
+{"level":"debug","time":"2025-01-12T10:13:19.190Z","caller":"core/lifecycle.go:478","msg":"User has provided playwright as test type for the job with ID 6ebfe0ba-26bf-49c6-8f20-d03a5035b8ca"}
+{"level":"debug","time":"2025-01-12T10:13:19.190Z","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2025-01-12T10:13:19.190Z","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2025-01-12T10:13:19.191Z","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2025-01-12T10:13:19.191Z","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: /workspace/LambdaTest_Playwright"}
+{"level":"debug","time":"2025-01-12T10:13:19.225Z","caller":"storage/azure.go:59","msg":"Payload size: 2.06 kB, source path /tmp/git.diff"}
+{"level":"debug","time":"2025-01-12T10:13:19.225Z","caller":"utils/azcopy.go:143","msg":"Downloading dependency binary ..................."}
+{"level":"debug","time":"2025-01-12T10:13:19.382Z","caller":"utils/azcopy.go:100","msg":"Downloading dependency to upload files"}
+{"level":"debug","time":"2025-01-12T10:13:19.668Z","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-01-12T10:13:20.318Z","caller":"core/lifecycle.go:610","msg":"Zip file size: 8.80 MB"}
+{"level":"debug","time":"2025-01-12T10:13:20.318Z","caller":"core/lifecycle.go:620","msg":"Archive location: /workspace/LambdaTest_Playwright/hyperexecute-code-6ebfe0ba-26bf-49c6-8f20-d03a5035b8ca.zip\n"}
+{"level":"debug","time":"2025-01-12T10:13:20.318Z","caller":"storage/azure.go:59","msg":"Payload size: 8.80 MB, source path /workspace/LambdaTest_Playwright/hyperexecute-code-6ebfe0ba-26bf-49c6-8f20-d03a5035b8ca.zip"}
+{"level":"info","time":"2025-01-12T10:13:27.683Z","caller":"utils/azcopy.go:118","msg":"\u001b[91m\u001b[32m✔\u001b[0m Dependency binary downloaded successfully\u001b[0m"}
+{"level":"debug","time":"2025-01-12T10:13:27.683Z","caller":"utils/azcopy.go:190","msg":"returning from fallback"}
+{"level":"info","time":"2025-01-12T10:13:29.704Z","caller":"storage/azure.go:114","msg":"File upload completed in 10.4796065s"}
+{"level":"info","time":"2025-01-12T10:13:37.715Z","caller":"storage/azure.go:114","msg":"File upload completed in 17.396987416s"}
+{"level":"debug","time":"2025-01-12T10:13:37.716Z","caller":"receptionmanager/setup.go:251","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2025-01-12T10:13:37.716Z","caller":"receptionmanager/setup.go:280","msg":"number of entries in partialreports: 0, switching to new yaml format"}
+{"level":"debug","time":"2025-01-12T10:13:37.716Z","caller":"receptionmanager/setup.go:168","msg":"Uploading yaml : /workspace/LambdaTest_Playwright/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2025-01-12T10:13:37.716Z","caller":"storage/azure.go:59","msg":"Payload size: 3.48 kB, source path /workspace/LambdaTest_Playwright/.updatedhyperexecute.yaml"}
+{"level":"info","time":"2025-01-12T10:13:47.745Z","caller":"storage/azure.go:114","msg":"File upload completed in 10.029039691s"}
+{"level":"debug","time":"2025-01-12T10:13:47.746Z","caller":"core/lifecycle.go:647","msg":"Successfully deleted code archive: /workspace/LambdaTest_Playwright/hyperexecute-code-6ebfe0ba-26bf-49c6-8f20-d03a5035b8ca.zip\n"}
+{"level":"debug","time":"2025-01-12T10:13:47.747Z","caller":"storage/azure.go:59","msg":"Payload size: 892 B, source path yaml/win/mask-6ebfe0ba-26bf-49c6-8f20-d03a5035b8ca.yaml"}
+{"level":"info","time":"2025-01-12T10:13:57.777Z","caller":"storage/azure.go:114","msg":"File upload completed in 10.030683631s"}
+{"level":"debug","time":"2025-01-12T10:13:59.462Z","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 286e1c52-26f5-46f5-bc91-cc7704408d11"}
+{"level":"debug","time":"2025-01-12T10:13:59.462Z","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 286e1c52-26f5-46f5-bc91-cc7704408d11"}
+{"level":"debug","time":"2025-01-12T10:13:59.462Z","caller":"jobmanager/sse_setup.go:194","msg":"Task id: efe20b2d-7003-4254-9bba-ca39fb6aa276"}
+{"level":"debug","time":"2025-01-12T10:13:59.462Z","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: efe20b2d-7003-4254-9bba-ca39fb6aa276"}
+{"level":"debug","time":"2025-01-12T10:13:59.462Z","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 3c1b44f7-9f3a-49b6-8ddf-1dd25479a964"}
+{"level":"debug","time":"2025-01-12T10:13:59.462Z","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 3c1b44f7-9f3a-49b6-8ddf-1dd25479a964"}
+{"level":"info","time":"2025-01-12T10:14:01.390Z","caller":"jobmanager/sse_setup.go:85","msg":"\nJob \u001b[1m\u001b[4m6ebfe0ba-26bf-49c6-8f20-d03a5035b8ca\u001b[24m\u001b[22m has started \u001b[97mRUNNING\u001b[0m"}
+{"level":"info","time":"2025-01-12T10:14:01.390Z","caller":"jobmanager/manager.go:142","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=6ebfe0ba-26bf-49c6-8f20-d03a5035b8ca\u001b[0m\u001b[24m\n"}
+{"level":"info","time":"2025-01-12T10:14:01.816Z","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mcache-download (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-01-12T10:14:01.832Z","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mcache-download (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-01-12T10:14:28.973Z","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mpre (28s)\u001b[22m\n"}
+{"level":"info","time":"2025-01-12T10:14:29.380Z","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mdiscovery (0s)\u001b[22m\n"}
+{"level":"info","time":"2025-01-12T10:14:37.979Z","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mpre (37s)\u001b[22m\n"}
+{"level":"info","time":"2025-01-12T10:14:38.594Z","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mdiscovery (2s)\u001b[22m\n"}
+{"level":"info","time":"2025-01-12T10:15:42.172Z","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mTestScenario1 (1m12s)\u001b[22m\n"}
+{"level":"info","time":"2025-01-12T10:15:42.573Z","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mpost (0s)\u001b[22m\n"}
+{"level":"info","time":"2025-01-12T10:15:49.980Z","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2mcache-download (3s)\u001b[22m\n"}
+{"level":"info","time":"2025-01-12T10:15:59.937Z","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mTestScenario2 (1m20s)\u001b[22m\n"}
+{"level":"info","time":"2025-01-12T10:16:00.264Z","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mpost (0s)\u001b[22m\n"}
+{"level":"info","time":"2025-01-12T10:16:09.114Z","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2mpre (19s)\u001b[22m\n"}
+{"level":"info","time":"2025-01-12T10:16:09.602Z","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2mdiscovery (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-01-12T10:17:39.116Z","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2mTestScenario3 (1m26s)\u001b[22m\n"}
+{"level":"info","time":"2025-01-12T10:17:39.842Z","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2mpost (1s)\u001b[22m\n"}
+{"level":"debug","time":"2025-01-12T10:17:43.850Z","caller":"jobmanager/sse_setup.go:136","msg":"\n\nJob status"}
+{"level":"debug","time":"2025-01-12T10:17:44.010Z","caller":"artifactsmanager/downloadv0.1.go:111","msg":"\nArtifacts ready to be downloaded for task id: 286e1c52-26f5-46f5-bc91-cc7704408d11\n"}
+{"level":"debug","time":"2025-01-12T10:17:44.114Z","caller":"artifactsmanager/downloadv0.1.go:148","msg":"\nDownloading artefacts for task id: 286e1c52-26f5-46f5-bc91-cc7704408d11\n"}
+{"level":"info","time":"2025-01-12T10:17:44.121Z","caller":"jobmanager/JobSummaryManager.go:54","msg":"\n\u001b[102m\u001b[1m\u001b[30m COMPLETED \u001b[0m\u001b[22m\u001b[0m\n"}
+{"level":"info","time":"2025-01-12T10:17:44.121Z","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mTest Execution Time\u001b[22m:                  \u001b[92m2m7s\u001b[0m"}
+{"level":"info","time":"2025-01-12T10:17:44.121Z","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mJob Duration Time\u001b[22m:                    3m42s"}
+{"level":"info","time":"2025-01-12T10:17:44.122Z","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mTotal Tasks\u001b[22m:                          3"}
+{"level":"info","time":"2025-01-12T10:17:44.122Z","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mCumulative Time Consumed\u001b[22m:             5m43s"}
+{"level":"info","time":"2025-01-12T10:17:44.122Z","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mTotal Stages\u001b[22m:                         12"}
+{"level":"info","time":"2025-01-12T10:17:44.122Z","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass discovery stage percentage\u001b[22m:      100.00%"}
+{"level":"info","time":"2025-01-12T10:17:44.122Z","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed discovery stage percentage\u001b[22m:    0.00%"}
+{"level":"info","time":"2025-01-12T10:17:44.122Z","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass pre stage percentage\u001b[22m:            \u001b[92m100.00%\u001b[0m"}
+{"level":"info","time":"2025-01-12T10:17:44.122Z","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed pre stage percentage\u001b[22m:          0.00%"}
+{"level":"info","time":"2025-01-12T10:17:44.122Z","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass test stage percentage\u001b[22m:           \u001b[92m100.00%\u001b[0m"}
+{"level":"info","time":"2025-01-12T10:17:44.122Z","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed test stage percentage\u001b[22m:         0.00%"}
+{"level":"info","time":"2025-01-12T10:17:44.122Z","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mPass post stage percentage\u001b[22m:           \u001b[92m100.00%\u001b[0m"}
+{"level":"info","time":"2025-01-12T10:17:44.122Z","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed post stage percentage\u001b[22m:         0.00%"}
+{"level":"info","time":"2025-01-12T10:17:44.122Z","caller":"jobmanager/JobSummaryManager.go:113","msg":"    \u001b[1mFailed Tasks\u001b[22m:                         0"}
+{"level":"info","time":"2025-01-12T10:17:44.122Z","caller":"jobmanager/JobSummaryManager.go:58","msg":""}
+{"level":"info","time":"2025-01-12T10:17:46.420Z","caller":"artifactsmanager/downloadv0.1.go:360","msg":"Download completed in 2.30543777s"}
+{"level":"debug","time":"2025-01-12T10:17:46.422Z","caller":"artifactsmanager/downloadv0.1.go:154","msg":"\nDownloading artefacts completed successfully for task id: 286e1c52-26f5-46f5-bc91-cc7704408d11\n"}
+{"level":"debug","time":"2025-01-12T10:17:46.549Z","caller":"artifactsmanager/downloadv0.1.go:111","msg":"\nArtifacts ready to be downloaded for task id: efe20b2d-7003-4254-9bba-ca39fb6aa276\n"}
+{"level":"debug","time":"2025-01-12T10:17:46.659Z","caller":"artifactsmanager/downloadv0.1.go:148","msg":"\nDownloading artefacts for task id: efe20b2d-7003-4254-9bba-ca39fb6aa276\n"}
+{"level":"info","time":"2025-01-12T10:17:49.000Z","caller":"artifactsmanager/downloadv0.1.go:360","msg":"Download completed in 2.340962266s"}
+{"level":"debug","time":"2025-01-12T10:17:49.001Z","caller":"artifactsmanager/downloadv0.1.go:154","msg":"\nDownloading artefacts completed successfully for task id: efe20b2d-7003-4254-9bba-ca39fb6aa276\n"}
+{"level":"debug","time":"2025-01-12T10:17:49.113Z","caller":"artifactsmanager/downloadv0.1.go:111","msg":"\nArtifacts ready to be downloaded for task id: 3c1b44f7-9f3a-49b6-8ddf-1dd25479a964\n"}
+{"level":"debug","time":"2025-01-12T10:17:49.213Z","caller":"artifactsmanager/downloadv0.1.go:148","msg":"\nDownloading artefacts for task id: 3c1b44f7-9f3a-49b6-8ddf-1dd25479a964\n"}
+{"level":"info","time":"2025-01-12T10:17:51.531Z","caller":"artifactsmanager/downloadv0.1.go:360","msg":"Download completed in 2.317633938s"}
+{"level":"debug","time":"2025-01-12T10:17:51.532Z","caller":"artifactsmanager/downloadv0.1.go:154","msg":"\nDownloading artefacts completed successfully for task id: 3c1b44f7-9f3a-49b6-8ddf-1dd25479a964\n"}
+{"level":"debug","time":"2025-01-12T10:17:51.532Z","caller":"core/lifecycle.go:825","msg":"Context canceled"}
+{"level":"info","time":"2025-01-12T10:17:51.532Z","caller":"core/lifecycle.go:828","msg":"\u001b[2mStopping pipeline gracefully\u001b[22m"}
+{"level":"info","time":"2025-01-12T10:17:51.532Z","caller":"jobmanager/manager.go:142","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=6ebfe0ba-26bf-49c6-8f20-d03a5035b8ca\u001b[0m\u001b[24m\n"}
+{"level":"debug","time":"2025-01-12T10:17:51.532Z","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-01-12T10:17:51.532Z","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2025-01-12T10:18:21.533Z","caller":"cmd/bin.go:330","msg":"main: all goroutines have finished."}

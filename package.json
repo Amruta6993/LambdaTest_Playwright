@@ -1,5 +1,5 @@
 {
-    "name": "lambdatest-playwright-sample",
+    "name": "lambdatest-playwright",
     "scripts": {},
     "engines": {
       "node": ">=12.7.0"

@@ -1,0 +1,50 @@
+---
+version: 0.1
+globalTimeout: 150
+testSuiteTimeout: 150
+testSuiteStep: 150
+report: true
+
+runson: win
+
+autosplit: true
+retryOnFailure: true
+
+maxRetries: 1
+concurrency: 3
+
+env:
+  TARGET_OS: Windows 10
+
+# Dependency caching for Windows
+cacheKey: '{{ checksum "pom.xml" }}'
+cacheDirectories:
+  - .m2
+
+# shell: bash
+
+pre:
+ # install playwright version to be used.
+  - npm install playwright@1.23.0 --save-exact
+  # Download and install packages in the .m2 folder.
+  # Skip execution of the tests in the pre step
+  - mvn -Dmaven.repo.local=./.m2 -Dmaven.test.skip=true clean install
+
+post:
+  - cat yaml/win/junit_hyperexecute_autosplit_sample.yaml
+
+mergeArtifacts: true
+
+uploadArtefacts:
+ - name: Surefire-Report
+   path:
+    - target/surefire-reports/**
+
+testDiscovery:
+  type: raw
+  mode: dynamic
+  command: grep -rl '@Test' src/test/java | awk -F'/' '{print substr($NF, 1, length($NF)-5)}'
+
+testRunnerCommand:  mvn test `-Dplatname=win `-Dmaven.repo.local=./.m2 `-Dplatname=win `-Dtest=$test surefire-report:report
+
+jobLabel: [playwright-Junit, win, autosplit] 

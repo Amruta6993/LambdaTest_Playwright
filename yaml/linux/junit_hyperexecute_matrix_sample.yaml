@@ -1,0 +1,47 @@
+---
+version: 0.1
+globalTimeout: 150
+testSuiteTimeout: 150
+testSuiteStep: 150
+report: true
+
+runson: linux
+retryOnFailure: true
+
+maxRetries: 1
+concurrency: 3
+
+env:
+  # PAT: ${{ .secrets.testKey }}
+  TARGET_OS: linux
+
+cacheKey: '{{ checksum "pom.xml" }}'
+cacheDirectories:
+  - .m2
+
+matrix:
+  classname: ["TestScenario1","TestScenario2","TestScenario3"]
+
+shell: bash
+
+pre:
+ # install playwright version to be used.
+  - npm install playwright@1.23.0 --save-exact
+  # Download and install packages in the CACHE_DIR.
+  # Skip execution of the tests in the pre step
+  - mvn -Dmaven.repo.local=./.m2 -Dmaven.test.skip=true clean install
+
+post:
+  - cat yaml/linux/junit_hyperexecute_matrix_sample.yaml
+
+mergeArtifacts: true
+
+uploadArtefacts:
+ - name: Surefire-Report
+   path:
+    - target/surefire-reports/**
+
+testSuites:
+  - mvn -Dplatname=linux -Dmaven.repo.local=./.m2 -Dtest=$classname test surefire-report:report
+
+jobLabel: [playwright-Junit, linux, matrix] 
