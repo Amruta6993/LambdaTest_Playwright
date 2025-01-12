@@ -1,0 +1,45 @@
+./hyperexecute --user=$LT_USERNAME --key=$LT_ACCESS_KEY --config yaml/win/junit_hyperexecute_autosplit_sample.yaml --download-artifacts --force-clean-artifacts
+
+./hyperexecute --user=$LT_USERNAME --key=$LT_ACCESS_KEY --config yaml/win/junit_hyperexecute_matrix_sample.yaml --download-artifacts --force-clean-artifacts
+
+
+./hyperexecute --user=$LT_USERNAME --key=$LT_ACCESS_KEY --config yaml/linux/junit_hyperexecute_matrix_sample.yaml --download-artifacts --force-clean-artifacts
+
+
+
+./hyperexecute --user amruta.tapadiya6993 --key Nw2j0UWvQkcyU44LkJteT3wjEAFdq5ev22qYJIHGcsKfvkUlA0 --config yaml/win/junit_hyperexecute_autosplit_sample.yaml --download-artifacts --force-clean-artifacts 
+
+---------------------------------------------------------
+Windows Platform - Autosplit
+
+JobID : 
+
+Sceanrio1 - TestCaseID - 
+Sceanrio2 - TestCaseID - 
+Sceanrio3 - TestCaseID - 
+
+
+Windows Platform - Matrix
+
+JobID : 
+
+Sceanrio1 - TestCaseID - 
+Sceanrio2 - TestCaseID - 
+Sceanrio3 - TestCaseID - 
+
+Linux Platform - Autosplit
+
+JobID : 
+
+Sceanrio1 - TestCaseID - 
+Sceanrio2 - TestCaseID - 
+Sceanrio3 - TestCaseID - 
+
+
+Linux Platform - Matrix
+
+JobID : 
+
+Sceanrio1 - TestCaseID - 
+Sceanrio2 - TestCaseID - 
+Sceanrio3 - TestCaseID - 
